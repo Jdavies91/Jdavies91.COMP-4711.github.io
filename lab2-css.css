@@ -1,15 +1,14 @@
-p.thick{
-    font-weight: bold;
-}
+
 div.headerborder{
     border-style: solid;
     border-color: #E8E8E8;
     border-width: thin;
-    width: 320px;
+    width: 350px;
     height: 100px;
-    padding: 15px;
-    margin: 0px;
-
+    padding: 5px;
+    margin-right:  auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 div.infoborder{
@@ -24,16 +23,13 @@ div.infoborder{
     
 }
 
-.font{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: left;
-}
+
 h2.fonttxt{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    width:0px;
-    margin:0px;
+    text-align: left;
+    padding-left: 25px;
+
 }
 div.fonttxt{
     font-family: Arial, Helvetica, sans-serif;
@@ -54,20 +50,21 @@ div.fonttxt{
 
   }
 .postionoftable{
-    position: relative;
-    top: 22.6%;
-    left: 30%;
+    text-align: center;
+ 
 }
 .postionofpeople{
     position: relative;
-    top: 22.6%;
-    left:2%;
+    margin-right: auto;
+    margin-left: auto;
 }
 input.textarea {
-    left:100px;
+ 
     border-style: ridge;
-    border-width:  thin;
-    width: 230px;
+    border-width: thin;
+    border-color: #E8E8E8;
+    text-align: left;
+    width: 300px;
 }
 .button {
     background-color: white;
@@ -84,6 +81,6 @@ input.textarea {
 
 }
 .button:hover {
-    background-color: #f2f2f2; /* Green */
+    background-color: #f2f2f2; 
     color: black;
   }
