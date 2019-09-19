@@ -65,7 +65,8 @@ div.fonttxt{
 }
 input.textarea {
     left:100px;
-
+    border-style: ridge;
+    border-width:  thin;
     width: 230px;
 }
 .button {
