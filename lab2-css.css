@@ -32,14 +32,15 @@ h2.fonttxt{
 
 }
 div.fonttxt{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     text-align: left;
+    font-size: 10pt;
     padding-top: 5px;
 }
 .fontsubtxt{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
     text-align: left;
 }
 .img {
