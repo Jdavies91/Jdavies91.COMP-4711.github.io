@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <title>lab 3</title>
+      <link rel="stylesheet" type="text/css" href="lab3.css">
+      <meta charset="UTF-8" />
+      <script src="lab3.js" defer></script>
+   </head>
+   <body>
+      <div class="postionoftable">
+      <div class="headerborder">
+         <h2 class="fonttxt">Artist Directory</h2>
+         <input type="text" class="textarea">
+         <button type="button" class = "buttonadd"onclick="showAddArtist()">Add Artist</button>
+      </div>
+      <div class="postionofAddPerson " id ="AddArtist">
+         <input type="text" class = "placeholderalign" placeholder="Artist Name" id="Aname"></input>
+         <br> 
+         <input type="text" class = "placeholderalign" placeholder="About Artist"id="AboutArtist" ></input> 
+         <br>
+         <input type="text" class = "placeholderalign" placeholder="Image url" id="Artistimg" ></input>
+         <br>        
+         <button type="button" class="buttonadded" onclick="addArtist()">Add </button>
+      </div>
+      <div  id="ViewPeople">                 
+      </div>
+   </body>
+</html>

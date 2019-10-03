@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <title>lab 4</title>
+      <link rel="stylesheet" type="text/css" href="lab4.css">
+      <meta charset="UTF-8" />
+      <script src="lab4.js" defer></script>
+   </head>
+   <body onload = "onloadArtist()">
+      <div class="postionoftable">
+      <div class="headerborder">
+         <h2 class="fonttxt">Artist Directory</h2>
+         <div class = "headercontent">
+         <input type="text" class="textarea" id="searchArtist">
+         <button type="button" class = "buttonadd"onclick="showAddArtist()">Add Artist</button>
+         <button type="button" class = "buttonadd"onclick="searchArtist()">Search Artist</button>
+         
+         </div>
+      </div>
+      <div class="postionofAddPerson " id ="AddArtist">
+         <input type="text" class = "placeholderalign" placeholder="Artist Name" id="Aname"></input>
+         <br> 
+         <input type="text" class = "placeholderalign" placeholder="About Artist"id="AboutArtist" ></input> 
+         <br>
+         <input type="text" class = "placeholderalign" placeholder="Image url" id="Artistimg" ></input>
+         <br>        
+         <button type="button" class="buttonadded" onclick="addArtist()">Add </button>
+      </div>
+      <div  id="ViewPeople">                 
+      </div>
+   </body>
+</html>

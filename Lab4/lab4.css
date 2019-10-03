@@ -1,0 +1,110 @@
+div.headerborder {
+	border-style: solid;
+	border-color: #E8E8E8;
+	border-width: thin;
+	width: 500px;
+	height: 100px;
+	padding: 8px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+div.headercontent {
+	float:left;
+	padding-left: 5px;
+	text-align: center;
+}
+div.infoborder {
+	border-style: solid;
+	border-color: #E8E8E8;
+	border-width: thin;
+	width: 350px;
+	height: 95px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-left:5px;
+	padding-bottom: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+}
+div.AddPerson {
+	border-style: solid;
+	border-color: #E8E8E8;
+	border-width: thin;
+	width: 350px;
+	height: 95px;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-left:5px;
+	padding-bottom: 3px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	display: none;
+
+}
+h2.fonttxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	text-align: left;
+	padding-left: 5px;
+}
+div.fonttxt {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 10pt;
+	padding-top: 5px;
+}
+.fontsubtxt {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 8pt;
+	text-align: left;
+}
+.postionoftable {
+	text-align: center;
+}
+.postionofpeople {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+.postionofAddPerson {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+		display: block;
+}
+input.textarea {
+	border-style: ridge;
+	border-width: thin;
+	border-color: #E8E8E8;
+	text-align: left;
+	width: 280px;
+	height: 27px;
+	
+}
+.buttonadd{
+	border: none;
+	padding-bottom: 5px;
+	height:30px;
+}
+.buttonsearch{
+	border: none;
+
+}
+.buttonadded{
+	border: none;
+	width: 140px;
+	height:30px;
+}
+input.placeholderalign {
+	text-align: center;
+	border-style:ridge;
+	border-radius: 3px;
+	border-width: thin;
+	width: 310px;
+}
