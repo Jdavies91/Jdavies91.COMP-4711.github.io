@@ -101,6 +101,7 @@ function searching(searchname){
     }  
   } else{
   for (let i = 1; i <= People.children.length; i++) {
+      People.childNodes[i].style.display = "block";
       if(People.childNodes[i].childNodes[1].textContent.toLowerCase().includes(searchname.toLowerCase())===false){
         People.childNodes[i].style.display = "none";
       }
