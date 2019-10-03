@@ -35,14 +35,12 @@ function loadingArtist(n, a, i) {
   var val = i;
 
   src = val,
-      img = document.createElement('img');
+  img = document.createElement('img');
 
   img.src = src;
 
-
-
   let peopleparent = document.createElement('div')
-
+  
   let node = document.createElement("div");
   let textnode = document.createTextNode(name);
   let subnode = document.createElement("div");
@@ -93,11 +91,30 @@ function saveArtist(name, Description, Image){
  }
 window.localStorage.setItem(name,JSON.stringify(Artist));
 }
-
+function searching(searchname){
+  People= document.getElementById("ViewPeople");
+  if(searchname ===""){
+    for (let i = 1; i <= People.children.length; i++) {
+    
+        People.childNodes[i].style.display = "block";
+      
+    }  
+  } else{
+  for (let i = 1; i <= People.children.length; i++) {
+      if(People.childNodes[i].childNodes[1].textContent.toLowerCase().includes(searchname.toLowerCase())===false){
+        People.childNodes[i].style.display = "none";
+      }
+       // console.log(People.childNodes[i].childNodes[1].textContent)
+      
+     // Text, DIV, Text, UL, ..., SCRIPT
+  }
+  }
+  //console.log(People.children.length);
+}
 function searchArtist(){
   var name = document.getElementById('searchArtist').value;
   artistinfo=localStorage.getItem(name);
-  searchArtist(JSON.parse(localStorage.getItem(name)).Artistname,JSON.parse(localStorage.getItem(name)).Artistdescription, JSON.parse(localStorage.getItem(name)).Artistimage);
+  searching(name);
 }
 
 

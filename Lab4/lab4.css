@@ -42,7 +42,7 @@ div.AddPerson {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
-	display: none;
+	display: block;
 
 }
 h2.fonttxt {
@@ -76,7 +76,7 @@ div.fonttxt {
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-		display: block;
+	display: none;
 }
 input.textarea {
 	border-style: ridge;
