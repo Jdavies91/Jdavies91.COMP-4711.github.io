@@ -1,0 +1,17 @@
+doctype html
+head
+  link(rel='stylesheet' type='text/css' href='CSS/Board.css')
+  meta(charset='ISO-8859-1')
+  title Memory Game
+
+h1  Memory Game
+div(class="scrsta")
+  #score Score: 0
+  #stage Stage: 0
+#memoryboard
+div(class="buttonwrapper")
+  button(class="startandterminate" onclick='SummaryonClick()') Terminate
+script(type='text/javascript' src='js/ConstVaribles.js' async='' defer='')
+script(type='text/javascript' src='js/gameplay.js' async='' defer='')
+script(type='text/javascript' src='js/Squares.js' async='' defer='')
+script(type='text/javascript' src='js/Board.js' async='' defer='')

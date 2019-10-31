@@ -1,0 +1,59 @@
+body{
+    background-color: #ff8080;
+  }
+h1{
+    padding-bottom: 5%;;
+    text-align: center;
+}
+#lblScores{
+    margin-left: 40%;
+       padding-right: 1.6%;
+        padding-left: 3.2%;
+}
+#lblUser{
+    margin-left: 40%;
+       padding-right: 2.1%;
+       
+}
+#currentUser{
+    margin-left: 40%;
+       padding-right: 2.1%;
+       
+}
+#scoresummary{
+   border: none;
+   background-color: #ff8080;
+}
+button.reset{
+    background-color:  rgb(92, 190, 255);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:200px;
+}
+button.submits{
+
+    background-color:  rgb(92, 190, 255);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width:200px;
+}
+div.submitcenter{
+    padding-top: 5%;
+    text-align: center;
+}
+div.resetcenter{
+    padding-top: 2%;
+    text-align: center;
+}

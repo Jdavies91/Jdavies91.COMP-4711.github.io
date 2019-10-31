@@ -1,0 +1,28 @@
+doctype html
+head
+  link(rel='stylesheet' type='text/css' href='CSS/leaderboard.css')
+  title Board Game
+h1  Leader Board
+h2  Current User
+
+table
+  th User
+  th Score
+    tr
+      td#tableuser
+      td#tablescore
+h2  Current Leaders
+table
+  th Rank
+  th User
+  th Score
+  each userscore, index in userscores
+    if index<5
+      tr
+        td= index+1
+        td= userscore.username
+        td= userscore.userscore
+div(class="buttonwrapper")
+  button(onclick='restart()') Restart Game
+script(type='text/javascript' src='js/ConstVaribles.js')
+script(type='text/javascript' src='js/leaderboard.js')

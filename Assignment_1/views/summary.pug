@@ -1,0 +1,37 @@
+//- doctype html
+//- head
+//-   link(rel='stylesheet', type='text/css', href='CSS/Board.css')
+//-   title Board Game
+//- h1  Summary
+//- #memoryboard
+//- form(action='/score', method='POST')
+//-   #lblUser
+//-     | User Name: 
+//-     input#user(type='text', name='username')
+//-   br
+//-   div(class = "score")
+//-     | Score: 
+//-     input#scoresummary(readonly='', type='text', name='userscore')
+//-   button(onclick='setTolocal() submit()') Submit
+//- button(onclick='reset()') Reset
+//- script(type='text/javascript', src='/js/summary.js')
+doctype html
+head
+  link(rel='stylesheet', type='text/css', href='CSS/Summary.css')
+title Board Game
+h1  Summary
+#memoryboard
+form(action='/score', method='POST')
+  .User
+    label#lblUser User Name:
+    input#user(type='text', name='username')
+  br
+  .score
+    label#lblScores Score: 
+    input#scoresummary(readonly='', type='text', name='userscore')
+  .submitcenter
+    button.submits(onclick='submit()') Submit
+.resetcenter
+  button.reset(onclick='reset()') Reset
+script(type='text/javascript' src='js/ConstVaribles.js')
+script(type='text/javascript', src='/js/summary.js')

@@ -1,0 +1,95 @@
+.flex-container {
+    display: block;
+    background-color:  rgb(65, 216, 133);
+    margin:auto;
+    flex-wrap: wrap;
+    border: black;
+    border-style: Thick;
+    min-width: fit-content;
+    max-width:500px;
+    transition: all ease .8s;
+    transform: rotatex(0deg);
+    padding: 1em;
+  }
+.squares{
+    background-color: rgb(92, 190, 255);
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    transition: transform .5s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+  body{
+    background-color: #ff8080;
+  }
+  
+  .TransitionOfMainBoard0 {
+    max-width: fit-content;
+    transition: transform 5s;
+    transform:  rotate(0);
+  }
+  .TransitionOfMainBoard90 {
+    max-width: fit-content;
+    transition: transform 5s;
+    transform:  rotate(90deg);
+  } 
+   .TransitionOfMainBoard{
+    max-width: fit-content;
+
+    transform:  rotate(0);
+   }
+
+  h1{
+    text-align:center;
+    padding-bottom: 2%;
+  }
+  .scrsta{
+    font-size: 18px;
+    margin-left: 18%;
+  }
+  .LightUpsquares{
+    background-color: black;
+    height: 60px;
+    width: 60px;
+ 
+    transition: all ease .8s;
+    transform: rotateX(180deg);
+
+
+
+  }  
+  .squares.front {
+    background-color: green;
+
+    transition: all ease .8s;
+    transform: rotateX(180deg);
+  }
+  .squares.is-flipped {
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    transition: all ease .8s;
+    transform: rotateX(180deg);
+  }
+  .buttonwrapper{
+    padding-top:8%;
+    text-align: center;
+}
+button.startandterminate{
+  background-color:  rgb(92, 190, 255);
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:250px;
+
+}
+
+  
+ 

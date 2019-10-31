@@ -1,0 +1,48 @@
+
+function board(){
+    let i,j;
+    
+    let parentRow = document.createElement('div');
+    
+    let btnTextnode = document.createTextNode('');
+    let btnSquare   = document.createElement('BUTTON');
+    for (i = 0; i < 6; i++) {
+        let row = document.createElement("div");  
+        for(j=0; j< 6; j++){
+
+            btnSquare.appendChild(btnTextnode);
+            btnSquare.classList= 'squares'
+            btnSquare.appendChild(btnSquare);
+        }
+     
+        parentRow.appendChild(row);
+    }
+    parentRow.setAttribute("class","flex-container");
+    document.getElementById('memoryboard').append(parentRow);
+    squareToLightup()
+}
+
+
+function squareToLightup(){
+    
+    let chosenvalues= [], boardvalue = [1,2,3,4];  //dummy values need to come from actualy board
+    console.log(boardvalue);
+     let i =0;
+    for (i = 0; i<3;i++){
+       chosenvalues[i]= shuffle(boardvalue).pop();
+    }
+    console.log(chosenvalues);
+    console.log(boardvalue);
+   // console.log(chosenvalues)
+}
+
+function shuffle(SquareArr){
+    let i, j, temp;
+    for(i = SquareArr.length-1; i>0; i--){
+        j = Math.floor(Math.random()*(i+1));
+        temp = SquareArr[i];
+        SquareArr[i] = SquareArr[j];
+        SquareArr[j] = temp;
+    }
+    return SquareArr;
+}

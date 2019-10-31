@@ -1,0 +1,36 @@
+table{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(92, 190, 255);
+  }
+
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color:  rgb(65, 216, 133);
+  }
+
+h1, h2 {
+    text-align: center;
+}
+body{
+    background-color: #ff8080;
+  }
+button{
+    background-color:  rgb(92, 190, 255);
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.buttonwrapper{
+    padding-top:5%;
+    text-align: center;
+}
